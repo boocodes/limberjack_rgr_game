@@ -1,0 +1,2 @@
+public class Clouds {
+}
