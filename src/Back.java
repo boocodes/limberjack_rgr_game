@@ -13,15 +13,16 @@ public class Back {
     }
 
 
-    public void draw (Graphics2D g){
-
+    public void draw (Graphics2D g, App frame){
+        g.fillRect(0,0,600,944);
         if(App.state.equals(App.STATES.MENU)){
-            Menu menu = new Menu();
-            menu.start(g);
+            g.setColor(Color.CYAN);
+            Menu menu = new Menu(g, frame);
 
         }
         else if (App.state.equals(App.STATES.PLAY)){
             g.drawImage(img, (int)0, (int)0, null);
+
         }
 
     }

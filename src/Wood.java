@@ -53,7 +53,6 @@ public class Wood {
         else if (randomValue == 1){
             woodsPositionsElem.add("rightPlant.png");
         }
-        System.out.println(woodsPositionsElem);
         return true;
     }
 

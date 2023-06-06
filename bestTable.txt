@@ -1,0 +1,15 @@
+hello=400
+alo=100
+there=98
+privet=54
+aleeesji=45
+hi=44
+паловник=43
+Znn=43
+kolya=24
+tyt=13
+aleee=13
+Znjn=12
+pavel=11
+nikita=10
+alesha=0
